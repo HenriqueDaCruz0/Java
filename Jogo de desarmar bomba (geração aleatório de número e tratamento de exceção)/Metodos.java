@@ -20,7 +20,7 @@ public class Metodos
 		 	{Random aleatorioA = new Random();
 		 	Fio = aleatorioA.nextInt(12) + 1;
 		 		System.out.println(" " + " =======================");
-		 		System.out.println(" " + " || Número gerado: " + Fio + " ||");
+		 		System.out.println(" " + " || NÃºmero gerado: " + Fio + " ||");
 
 	    
 		 	try
@@ -33,11 +33,11 @@ public class Metodos
 	     			}
 			
 		 		else if(Fio % 2 == 0)
-	     			{if(aux % 0 == 1)
+	     				{if(aux % 0 == 1)
 	     				{}
 	     			}
 		 		}catch(Exception e)
-	    			{GameOver++;
+	    				{GameOver++;
 	    				 System.out.println(" " + " || ----------------- ||");
 	    				 System.out.println(" " + " || Cabum! XD         ||");
 	    				 System.out.println(" " + " =======================");
@@ -46,10 +46,10 @@ public class Metodos
 		 	
 		 	if(NivelSeguinte == 1)
 	     		{System.out.println("\n\n " + " ==================================");
-	     		 System.out.println(" " + " || Faça a sua jogada novamente! ||");
+	     		 System.out.println(" " + " || FaÃ§a a sua jogada novamente! ||");
 	     		 System.out.println(" " + " ==================================");
 	    	 
-	     		 Final = JOptionPane.showInputDialog("\n\t Última rodada! \n1) Azul \n2) Amarelo \n3) Verde \n4)Preto \n5)Vermelho \n6) Roxo");
+	     		 Final = JOptionPane.showInputDialog("\n\t Ãšltima rodada! \n1) Azul \n2) Amarelo \n3) Verde \n4)Preto \n5)Vermelho \n6) Roxo");
 	     		 NivelB = Integer.parseInt(Final);
 	    	 
 	     		 Parte++;
@@ -57,7 +57,7 @@ public class Metodos
 	     		 Random aleatorioB = new Random();
 	     		 Fio = aleatorioB.nextInt(12) + 1;
 	     		 	System.out.println(" " + " =======================");
-	     		 	System.out.println(" " + " || Número gerado: " + Fio + " ||");
+	     		 	System.out.println(" " + " || NÃºmero gerado: " + Fio + " ||");
 	    	 
 	     		 try
 	     		 	{if(Fio % 2 > 0)
@@ -74,12 +74,12 @@ public class Metodos
 	     		 			{}
 	     		 		}
 	     		 	}catch(Exception e)
-		    			{GameOver++;
+		    		     {GameOver++;
 		    		     System.out.println(" " + " || ----------------- ||");
-		    		 	 System.out.println(" " + " || Cabum! XD         ||");
-		    			 System.out.println(" " + " =======================");
-		    			 /*System.out.println("par"); par o errado*/
-		    			}
+		    		     System.out.println(" " + " || Cabum! XD         ||");
+		    		     System.out.println(" " + " =======================");
+		    		     /*System.out.println("par"); par o errado*/
+		    		     }
 	     		}
 		 	}
 		}
@@ -91,7 +91,7 @@ public class Metodos
 		
 		 System.out.println(" " + " ===========================");
 		
-		 if(Opcao == 1)
+	     if(Opcao == 1)
 	    	System.out.println(" " + " || Fio cortado: Azul     ||");
 	     
 	     if(Opcao == 2)
@@ -151,35 +151,35 @@ public class Metodos
 	     
 	     if(FinalGame == 1)
 	    	 {System.out.println("\n\n\n " + "      ==================");
-	    	  System.out.println(" " + "      || Você venceu! ||");
+	    	  System.out.println(" " + "      || VocÃª venceu! ||");
 	    	  System.out.println(" " + "      ==================");
 	    	 }
 	     
 	     if(GameOver == 1)
     	 {System.out.println("\n\n\n " + "      ==================");
-    	  System.out.println(" " + "      || Você Perdeu! ||");
+    	  System.out.println(" " + "      || VocÃª Perdeu! ||");
     	  System.out.println(" " + "      ==================");
     	 }
 	     
 	     if(Bonus == 1)
-	     	{System.out.println("\n\n " + "      |_(¨`·.·´¨)_____I___|");
-	    	 System.out.println(" " + "      |__`·.(¨`·.·´¨)Love_|");
-	    	 System.out.println(" " + "      |______`·.¸.·´_You__|");
+	     	{System.out.println("\n\n " + "      |_(Â¨`Â·.Â·Â´Â¨)_____I___|");
+	    	 System.out.println(" " + "      |__`Â·.(Â¨`Â·.Â·Â´Â¨)Love_|");
+	    	 System.out.println(" " + "      |______`Â·.Â¸.Â·Â´_You__|");
 	     	}     
 	     
 	     System.out.println("\n\n " + " ===============================================");
 	     System.out.println(" " + " ||                                           ||");
-	     System.out.println(" " + " ||      Sistemas de Informação (UNIFEBE)     ||");
+	     System.out.println(" " + " ||      Sistemas de InformaÃ§Ã£o (UNIFEBE)     ||");
 	     System.out.println(" " + " ||                                           ||");
-	     System.out.println(" " + " ||               (Programação I)             ||");
+	     System.out.println(" " + " ||               (ProgramaÃ§Ã£o I)             ||");
 	     System.out.println(" " + " ||                                           ||");
    	     System.out.println(" " + " ||            (Os Desenvolvedores)           ||");
    	     System.out.println(" " + " ||                                           ||");
    	     System.out.println(" " + " ||              Henrique da Cruz             ||");
-   	  	 System.out.println(" " + " ||                                           ||");
-   	  	 System.out.println(" " + " ||                                           ||");
-   	  	 System.out.println(" " + " ||               Data 25/06/2022             ||");
-   	  	 System.out.println(" " + " ||                                           ||");
+   	     System.out.println(" " + " ||                                           ||");
+   	     System.out.println(" " + " ||                                           ||");
+   	     System.out.println(" " + " ||               Data 25/06/2022             ||");
+   	     System.out.println(" " + " ||                                           ||");
    	     System.out.println(" " + " ===============================================");
 	     
 		}
